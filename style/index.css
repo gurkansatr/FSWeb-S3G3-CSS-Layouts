@@ -1,1 +1,76 @@
-/* CSS stillerinizi buraya girin */
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;   
+    align-items: center;
+}
+h2{
+    font-size: 60px;
+}
+nav a{
+    border: solid 2px black;
+    color: black;
+    padding: 2% 3%; 
+    font-size: 30px;
+}
+nav{
+    width: 25%;
+    text-align: right;
+}
+main{
+    width: 70%;
+    margin: 0 auto;
+    background: url("https://picsum.photos/700/370");
+    height: 37vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+}
+h1{
+    font-size: 65px;
+}
+.button{
+    font-size: 50px;
+    display: inline-block;
+    margin: 0 auto;
+    border: solid 2px black;
+    color: black;
+    padding: 2% 3%; 
+}
+a{
+    text-decoration: none;
+}
+footer{
+    padding: 4%;
+    text-align: center;
+}
+a:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+section div{
+    width: 30vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+section img{
+    width: 100%;
+}
+h3{
+    font-size: 40px;
+    font-weight: bold;
+
+}
