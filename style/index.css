@@ -1,27 +1,33 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
-    padding: 1%;   
+    padding: 1%;
     align-items: center;
 }
-h2{
-    font-size: 60px;
+
+h2 {
+    font-size: 4.5vw;
 }
-nav a{
+
+nav a {
     border: solid 2px black;
     color: black;
-    padding: 2% 3%; 
-    font-size: 30px;
+    padding: 1.5% 1.5%;
+    font-size: 2vw;
+    margin: 0;
 }
-nav{
-    width: 25%;
+
+nav {
+    width: 70%;
     text-align: right;
 }
-main{
+
+main {
     width: 70%;
     margin: 0 auto;
     background: url("https://picsum.photos/700/370");
@@ -32,45 +38,106 @@ main{
     text-align: center;
     background-size: cover;
 }
-h1{
-    font-size: 65px;
+
+h1 {
+    font-size: 5vw;
 }
-.button{
-    font-size: 50px;
+
+.button {
     display: inline-block;
     margin: 0 auto;
     border: solid 2px black;
     color: black;
-    padding: 2% 3%; 
+    padding: 1.5% 2%;
 }
-a{
+
+a {
     text-decoration: none;
+    font-size: 4vw;
 }
-footer{
-    padding: 4%;
+
+footer {
+    padding: 2%;
     text-align: center;
+    font-size: 15px;
 }
-a:hover{
+
+a:hover {
     background: black;
     color: white;
     cursor: pointer;
 }
-section{
+
+section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 1%;
 }
-section div{
+
+section div {
     width: 30vw;
     text-align: center;
     padding-bottom: 1%;
 }
-section img{
+
+section img {
     width: 100%;
 }
-h3{
-    font-size: 40px;
+
+h3 {
+    font-size: 30px;
     font-weight: bold;
 
+}
+
+@media(max-width:500px) {
+    h1{
+        font-size: 8vw;
+    }
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+        text-align: center;
+    }
+    nav a{
+        font-size: 4vw;
+        text-align: center;
+        margin: 1% 25%;
+
+    }
+    main {
+        width: 90vw;
+        height: 47vw;
+        margin-top: 5%;
+
+    }
+    section div {
+        width: 42vw;
+        
+    }
+    section {
+     padding: 5vw;
+     margin: 0 auto;
+     justify-content: space-between;
+    }
+    h2 {
+        font-size: 15vw;
+    }
+    h3{
+        font-size: 3.5vw;
+    }
+}
+@media(max-width:650px){
+    h1{
+        font-size: 6vw;
+    }
+    h2 {
+        font-size: 5vw;
+    }
 }
